@@ -50,7 +50,7 @@ npm install
 Add a new note
 node app.js new "This is a note" --tags=work,urgent
 View all notes
-
+```
 ```bash
 node app.js all
 ```
