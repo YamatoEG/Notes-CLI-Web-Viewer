@@ -16,8 +16,7 @@ A simple and extendable Node.js application that allows users to create, read, f
 ---
 
 ## 📁 Project Structure
-
-.
+```
 ├── node_modules/ # Project dependencies
 ├── src/
 │ ├── command.js # CLI commands using Yargs
@@ -32,7 +31,7 @@ A simple and extendable Node.js application that allows users to create, read, f
 ├── app.js # App entry point
 ├── db.json # Local JSON database
 └── README.md
-
+```
 ---
 
 ## 🛠️ Getting Started
@@ -51,10 +50,13 @@ npm install
 Add a new note
 node app.js new "This is a note" --tags=work,urgent
 View all notes
-```node app.js all
+
+```bash
+node app.js all
 ```
 Filter notes
-```node app.js find "keyword"
+```bash
+node app.js find "keyword"
 ```
 Remove a note by ID
 ```bash
@@ -72,21 +74,21 @@ npm test
 It opens http://localhost:5000 in your browser showing all notes styled via style.css.
 
 📌 Technologies Used
-Node.js (ES Modules)
+* Node.js (ES Modules)
 
-Yargs (for CLI)
+* Yargs (for CLI)
 
-HTTP Module (for web server)
+* HTTP Module (for web server)
 
-Open (auto-opens browser)
+* Open (auto-opens browser)
 
-Jest (for testing)
+* Jest (for testing)
 
 🤝 Contribution
-Pull requests are welcome! If you'd like to add features or improve the project, please fork it and submit a PR.
+* Pull requests are welcome! If you'd like to add features or improve the project, please fork it and submit a PR.
 
 📄 License
-This project is open source and available under the MIT License.
+ * This project is open source and available under the MIT License.
 
 ✍️ Author
-Developed by [Ahmad Mahmoud].
+ * Developed by Ahmad Mahmoud.
